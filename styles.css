@@ -1,0 +1,55 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Custom styling for the homepage */
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    font-style: italic;
+}
