@@ -5,12 +5,19 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 header {
     background-color: #ADD8E6;
     color: white;
     padding: 10px 20px;
+    width: 100%;
     text-align: center;
 }
 
@@ -31,12 +38,21 @@ header nav ul li a {
 
 section {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
 }
 
 h1, h2, h3 {
     color: #333;
 }
 
+/* Links styling */
 a {
     color: purple;
     text-decoration: none;
@@ -44,17 +60,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-/* Custom styling for the homepage */
-body {
-    background-color: #f8d7e0;
-}
-
-h1 {
-    font-family: 'Architects Daughter', cursive;
-}
-
-ul {
-    font-style: italic;
 }
