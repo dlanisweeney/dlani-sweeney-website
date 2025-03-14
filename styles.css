@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #f8d7e0;
     color: #333;
     margin: 0;
     padding: 0;
@@ -37,17 +37,22 @@ h1, h2, h3 {
     color: #333;
 }
 
+a {
+    color: purple;
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: underline;
 }
 
 /* Custom styling for the homepage */
 body {
-    background-color: #f0f0f0;
+    background-color: #f8d7e0;
 }
 
 h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Architects Daughter', cursive;
 }
 
 ul {
